@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_avatar_default.xml" value="0.1915" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_btn_search.xml" value="0.1915" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_cover_default.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_dialog_loading.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_img_top.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_item_video_hot_rank.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_no_banner.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_1a_corner_5_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_1a_radius_20.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_3000_corner_3.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_3fff_corner_5.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_6000_trans_bottom_corner_5.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_black_trans.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_e0bd94_gradient_corner_5.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_f5_corner_20.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_f5_radius_5.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_f6f7f8_corner_20.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_f6f7f8_corner_5.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_f9f6e5_corner_5.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_fcd935_radius_20_selector.xml" value="0.1915" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_fcd935_radius_5_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_ffc100_hollow_radius_20_selector.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_ffc100_radius_20_selector.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_primary_corner_5_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_rectangle_color_white_bottom_radius_20.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_round_default.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_search_shape_tags.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_square_default.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/bg_video_creator.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/btn_follow_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/btn_follow_switch.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/btn_video_follow_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/cursor_drawable.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/ic_featured_seletor.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/ic_game_seletor.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/ic_live_seletor.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/ic_mine_seletor.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/ic_video_seletor.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/img_rectangle_black_gradient_bottom_corner_5.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/progressbar_gradient_color_ffcb18.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/shape_point_normal.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/shape_point_select.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/shape_trans.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/shape_trans_top.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/vertical_line_color_ccc.xml" value="0.165" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/video_player_seek_progress.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/video_progress_bottom.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/video_seek_thumb_selector.xml" value="0.1735" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/yellow_checkbox_normal.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/yellow_checkbox_selected.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/drawable/yellow_checkbox_selector.xml" value="0.184" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_abs.xml" value="0.1125" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_home_page.xml" value="0.2390625" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_main.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_post_video.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_search.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_sllive.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_video_collect_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_video_creator.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_video_daily_more.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_video_detail_info.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/activity_video_hot_rank.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/btn_follow.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/btn_video_follow.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/dialog_loading.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/dialog_version_upgrade.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_abs.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_abs_recyclerview.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_game.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_hot_video_collect_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_hot_video_rank_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_live_home.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_main_video_featured.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_mine.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_personal_video.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_personal_video_collect_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_search_normal.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_search_result.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_search_result_out.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_search_result_user.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_search_result_video.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_collect_detail.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_comment_detail_info.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_detail.xml" value="0.2" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_detail_info.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_hot_rank_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/fragment_video_sort.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_bg_search_tag.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_discover_hot.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_discover_hot_video_collect.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_hot_video_collect_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_main_featured_video_body.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_main_video_banner.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_main_video_body_title.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_personal_video.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_personal_video_collect.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_search_normal_tag_info.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_search_user.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_big_cover.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_collect_video_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_comment.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_comment_reply.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_daily_more_line.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_daily_more_title.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_detail_tag.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_h_small_cover.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_hot_rank_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_maker_level.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_mid_cover.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_mid_video_default.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_small_cover.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/item_video_top_rank.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_abs_recyclerview_list.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_empty_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_error_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_list_big_cover_view_default.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_loading_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_no_network_view.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_video_collect_detail_top.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_view_common_title.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_viewflipper_comment.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/layout_viewflipper_rank.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/pager_navigator_layout.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/pager_navigator_layout_no_scroll.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/view_h_video_player.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/view_main_bottom_tab.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/view_personal_search.xml" value="0.7065727699530516" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/xbanner_item_image.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/xbanner_item_image_corner_5.xml" value="0.25364583333333335" />
+        <entry key="..\:/AS/work/BoLuoUiTest2/app/src/main/res/layout/xbanner_item_normal.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

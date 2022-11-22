@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:paddingStart="@dimen/dimen_10dp"
+    android:paddingTop="@dimen/dimen_12dp"
+    android:paddingEnd="@dimen/dimen_10dp"
+    android:paddingBottom="@dimen/dimen_12dp">
+
+    <ImageView
+        android:id="@+id/img_head"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/icon_cup_rank" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dimen_5dp"
+        android:layout_toEndOf="@+id/img_head"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/primary_text_size" />
+
+    <ImageView
+        android:id="@+id/img_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/icon_gray_arrow_right" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_avatar_3"
+        android:layout_width="@dimen/dimen_33dp"
+        android:layout_height="@dimen/dimen_33dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen_15dp"
+        android:layout_toStartOf="@+id/img_arrow"
+        android:scaleType="centerCrop"
+        app:riv_border_color="#f3b13e"
+        app:riv_border_width="@dimen/dimen_1dp"
+        app:riv_oval="true" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_avatar_2"
+        android:layout_width="@dimen/dimen_33dp"
+        android:layout_height="@dimen/dimen_33dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:layout_toStartOf="@+id/img_avatar_3"
+        android:scaleType="centerCrop"
+        app:riv_border_color="#0cb8ff"
+        app:riv_border_width="@dimen/dimen_1dp"
+        app:riv_oval="true" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_avatar_1"
+        android:layout_width="@dimen/dimen_33dp"
+        android:layout_height="@dimen/dimen_33dp"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/dimen_10dp"
+        android:layout_toStartOf="@+id/img_avatar_2"
+        android:scaleType="centerCrop"
+        app:riv_border_color="#ffe00c"
+        app:riv_border_width="@dimen/dimen_1dp"
+        app:riv_oval="true" />
+</RelativeLayout>

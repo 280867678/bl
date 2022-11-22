@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/dimen_44dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="backClick"
+            android:padding="@dimen/dimen_14dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_back_black" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/dimen_50dp"
+            android:layout_marginEnd="@dimen/dimen_50dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:textColor="@color/primary_text_color"
+            android:textSize="@dimen/title_text_size" />
+
+        <TextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end|center_vertical"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:onClick="subTitleClick"
+            android:paddingStart="@dimen/dimen_15dp"
+            android:paddingEnd="@dimen/dimen_15dp"
+            android:textColor="@color/second_text_color"
+            android:textSize="@dimen/primary_text_size"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/line"
+        style="@style/gray_line" />
+</LinearLayout>

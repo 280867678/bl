@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/btn_video_follow_selector"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingStart="@dimen/dimen_12dp"
+    android:paddingTop="@dimen/dimen_5dp"
+    android:paddingEnd="@dimen/dimen_12dp"
+    android:paddingBottom="@dimen/dimen_5dp">
+
+    <ImageView
+        android:id="@+id/img_add"
+        android:layout_width="@dimen/dimen_10dp"
+        android:layout_height="@dimen/dimen_10dp"
+        android:layout_marginEnd="@dimen/dimen_3dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_plus_black" />
+
+    <TextView
+        android:id="@+id/tv_follow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_follow"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/second_text_size" />
+</LinearLayout>

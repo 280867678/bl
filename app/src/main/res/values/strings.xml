@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">BoLuoUiTest2</string>
+    <string name="net_exception_hint">網絡異常，請檢查後重試～</string>
+    <string name="get_data_error">數據走丟了，請稍後重試～</string>
+    <string name="str_apk_download_ing">正在下載（%s%%），請稍候…</string>
+    <string name="str_apk_download_exception">安裝包下載異常，請重試</string>
+    <string name="str_apk_download_finish">下載完成，等待安裝…</string>
+    <string name="str_upgrade_now">立即升級</string>
+    <string name="str_not_to_upgrade">暫不升級</string>
+    <string name="str_wait_download_hint">等待下載，請稍候…</string>
+    <string name="str_home">首页</string>
+    <string name="featured">精選</string>
+    <string name="str_live">直播</string>
+    <string name="live">直播</string>
+    <string name="str_game">游戏</string>
+    <string name="mine">我的</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="str_post">發布</string>
+    <string name="str_search_hint">可搜索用戶/視頻/喜好</string>
+    <string name="data_error">數據獲取失敗，點擊重試～</string>
+    <string name="empty_view_hint">什麼都木有，點擊重試～</string>
+    <string name="loading_text">數據加載中，請稍候…</string>
+    <string name="no_network">網絡被外星人挾持啦，點擊重試～</string>
+    <string name="str_follow">關註</string>
+    <string name="cannot_follow_self">無法關註自己喲～</string>
+    <string name="follow">關註</string>
+    <string name="following">已關註</string>
+    <string name="str_complaint">投訴</string>
+
+
+    <string name="str_watch_count_ran_out_title_hint">免費觀看次數用完啦~</string>
+    <string name="str_watch_count_ran_out_content_hint">成功邀請1人，贈送1天無限觀看，可無限疊加\n充值VIP，即可無限觀看優質視頻</string>
+    <string name="str_share_watch">分享無限看</string>
+    <string name="str_open_vip">開通會員</string>
+    <string name="str_keep_watch">繼續觀看</string>
+    <string name="str_buy_success">購買成功</string>
+    <string name="str_play_fail_hint">播放失敗，請稍候重試</string>
+    <string name="str_detail">詳情</string>
+    <string name="str_comment">評論</string>
+    <string name="str_rec_to_you">為你推薦</string>
+    <string name="str_share">分享</string>
+
+
+    <string name="lower_version_tips">當前版本較低，請升級APP</string>
+    <string name="signature_empty_hint">擼軟了，什麼都沒有留下～</string>
+    <string name="search">搜索</string>
+    <string name="str_cancel">取消</string>
+    <string name="key_word_empty_hint">請輸入要搜索的關鍵字</string>
+    <string name="str_search_history">搜索歷史</string>
+    <string name="str_hot_tag">熱門標籤</string>
+    <string name="str_video">視頻</string>
+    <string name="str_user">用戶</string>
+    <string name="str_get_like">獲贊</string>
+    <string name="str_fans">粉絲</string>
+    <string name="str_edit_info">編輯資料</string>
+    <string name="str_set">合集</string>
+    <string name="str_personal_video_search_hint">輸入標題關鍵字搜索作品</string>
+    <string name="str_top">置頂</string>
+
+    <string name="str_video_collect_detail">合集詳情</string>
+    <string name="str_like_collect">喜歡合集</string>
+    <string name="str_free">免費</string>
+    <string name="str_liked">已喜歡</string>
+    <string name="str_video_creator">創作達人</string>
+    <string name="str_masterpiece">代表作：</string>
+    <string name="str_more">更多</string>
+    <string name="str_video_hot_rank">視頻熱榜</string>
+    <string name="str_upload_video">上傳視頻</string>
+    <string name="str_add_cover">添加封面</string>
+    <string name="str_title">標題</string>
+    <string name="str_title_hint">請在這裡輸入標題</string>
+    <string name="str_price">價格</string>
+
+
+    <string name="str_tag">標籤</string>
+    <string name="str_add_comment_hint">能不能火就靠你了～</string>
+    <string name="become_member_to_comment_hint">成為VIP即可發表評論喲～</string>
+    <string name="str_tips">溫馨提示</string>
+    <string name="no_need">不用了</string>
+    <string name="str_become_vip">成為VIP</string>
+    <string name="str_like_action">點贊</string>
+    <string name="comment_success">評論成功</string>
+    <string name="str_not_vip_comment_hint">您還不是VIP用戶，只能發送騷話~</string>
+    <string name="str_vip_comment_hint">您是VIP用戶,來說點什麽吧～</string>
+    <string name="str_daily_recommend">每日推薦</string>
+
+    <string name="str_hot_like">熱門點贊</string>
+    <string name="str_hot_play">熱播榜</string>
+    <string name="str_hot_talk_hint">位老鐵在討論</string>
+    <string name="str_hot_video_buy">熱門購買</string>
+    <string name="str_hot_video_collect">熱門合集</string>
+
+
+</resources>

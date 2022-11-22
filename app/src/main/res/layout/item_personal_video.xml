@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/img_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="@dimen/dimen_5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/bg_rectangle_color_6000_trans_bottom_corner_5"
+            android:gravity="end|center_vertical"
+            android:orientation="horizontal"
+            android:paddingStart="@dimen/dimen_10dp"
+            android:paddingTop="@dimen/dimen_8dp"
+            android:paddingEnd="@dimen/dimen_10dp"
+            android:paddingBottom="@dimen/dimen_8dp">
+
+            <com.example.boluouitest2.comod.baselib.view.CustomTextView
+                android:id="@+id/tv_play_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:includeFontPadding="false"
+                android:lines="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/third_text_size" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="@dimen/dimen_12dp"
+                android:layout_height="@dimen/dimen_12dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_white_like" />
+
+            <com.example.boluouitest2.comod.baselib.view.CustomTextView
+                android:id="@+id/tv_like_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/dimen_3dp"
+                android:shadowColor="@color/color_2000"
+                android:shadowDx="1"
+                android:shadowDy="2"
+                android:shadowRadius="2"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="@dimen/third_text_size" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dimen_5dp"
+            android:background="@drawable/bg_img_top"
+            android:ellipsize="end"
+            android:includeFontPadding="false"
+            android:lines="1"
+            android:paddingStart="@dimen/dimen_8dp"
+            android:paddingTop="@dimen/dimen_3dp"
+            android:paddingEnd="@dimen/dimen_8dp"
+            android:paddingBottom="@dimen/dimen_3dp"
+            android:text="@string/str_top"
+            android:textColor="@color/primary_text_color"
+            android:textSize="@dimen/sub_third_text_size" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5dp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/third_text_size" />
+</LinearLayout>

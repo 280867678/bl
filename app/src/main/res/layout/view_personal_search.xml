@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/et_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dimen_12dp"
+        android:background="@drawable/bg_rectangle_color_f6f7f8_corner_20"
+        android:gravity="center"
+        android:imeActionLabel="@string/search"
+        android:imeOptions="actionSearch"
+        android:paddingStart="@dimen/dimen_12dp"
+        android:paddingTop="@dimen/dimen_8dp"
+        android:paddingEnd="@dimen/dimen_12dp"
+        android:paddingBottom="@dimen/dimen_8dp"
+        android:singleLine="true"
+        android:textColor="@color/color_1a"
+        android:textColorHint="@color/color_b3"
+        android:textSize="@dimen/second_text_size" />
+</merge>

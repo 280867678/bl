@@ -1,0 +1,129 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+//        applicationId "com.example.boluouitest2"
+        applicationId "com.dnedu.blmv"
+
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "3.1.5"  //版本
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.appcompat:appcompat:1.3.0'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+
+    /////////////////////////////////////////////////////////////////////////////
+    //必须使用
+    implementation 'com.lzy.net:okgo:3.0.4'
+
+
+    implementation 'pub.devrel:easypermissions:3.0.0'
+
+
+
+    implementation 'com.alibaba:fastjson:1.1.72.android'
+//    implementation 'com.alibaba:fastjson:1.2.76'
+
+
+
+//    implementation 'org.xutils:xutils:3.3.26'
+
+//    implementation 'com.google.code.gson:gson:2.8.5'
+
+//    implementation 'com.github.bumptech.glide:glide:4.9.0'
+//    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
+
+
+
+
+
+
+
+    // 基础依赖包，必须要依赖
+    implementation 'com.gyf.immersionbar:immersionbar:3.0.0'
+// kotlin扩展（可选）
+//    implementation 'com.gyf.immersionbar:immersionbar-ktx:3.0.0'
+// fragment快速实现（可选）
+    implementation 'com.gyf.immersionbar:immersionbar-components:3.0.0'
+
+
+    //刷新及专场动画
+    implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0'
+
+//    ShimmerRecyclerView 带有闪光视图的自定义回收器视图，以指示视图正在加载。回收站视图有一个内置的适配器来控制微光外观并提供两种方法 -
+    implementation 'com.github.sharish:ShimmerRecyclerView:v1.3'
+
+    implementation 'com.makeramen:roundedimageview:2.2.1'
+
+
+
+//    Android智能下拉刷新框架-SmartRefreshLayout
+//    implementation 'androidx.appcompat:appcompat:1.0.0'                 //必须 1.0.0 以上
+
+//    implementation  'io.github.scwang90:refresh-layout-kernel:2.0.5'      //核心必须依赖
+//    implementation  'io.github.scwang90:refresh-header-classics:2.0.5'    //经典刷新头
+//    implementation  'io.github.scwang90:refresh-header-radar:2.0.5'       //雷达刷新头
+//    implementation  'io.github.scwang90:refresh-header-falsify:2.0.5'     //虚拟刷新头
+//    implementation  'io.github.scwang90:refresh-header-material:2.0.5'    //谷歌刷新头
+//    implementation  'io.github.scwang90:refresh-header-two-level:2.0.5'   //二级刷新头
+//    implementation  'io.github.scwang90:refresh-footer-ball:2.0.5'        //球脉冲加载
+//    implementation  'io.github.scwang90:refresh-footer-classics:2.0.5'    //经典加载
+
+    //完整版引入
+//    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer:v8.2.0-jitpack'
+    //完整版引入
+    implementation 'com.github.CarGuo.GSYVideoPlayer:GSYVideoPlayer:v8.1.9-release-jitpack'
+
+
+////完整版引入 https://gitee.com/mirrors/GSYVideoPlayer
+//    implementation 'com.shuyu:GSYVideoPlayer:7.1.4'
+
+
+//    implementation 'org.greenrobot:eventbus:3.0.0'
+    implementation("org.greenrobot:eventbus:3.3.1")
+
+
+
+
+
+
+
+
+
+    //直播需要
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
+    implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
+
+
+}

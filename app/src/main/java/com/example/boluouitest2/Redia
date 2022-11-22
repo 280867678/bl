@@ -1,0 +1,113 @@
+EventBus.m309d().m310c(this);
+EventBus.getDefault().register(this);
+//  EventBus.m309d().m320a(new GetGameInfoEvent());
+// 发送消息
+  EventBus.getDefault().post(new GetGameInfoEvent());
+
+
+  //        EventBus.m309d().m308d(this);
+  //取消注册
+  EventBus.getDefault().unregister(this);
+
+  m18540a    setRefreshHeader
+  m18542a    setRefreshFooter
+  m18538a    setOnLoadMoreListener
+  m18537a    setOnRefreshListener
+  m18551a    autoRefreshAnimationOnly
+  m18522d    setEnableLoadMore
+  m18515g    resetNoMoreData
+  m18524d    finishRefresh
+  m18534b    finishLoadMore
+
+/////////////////////////////////////////////////////////////
+//                ImmersionBar b = ImmersionBar.m5078b(MainActivity.this);
+//                b.m5105D();
+//                b.m5075b(true, 0.8f);
+//                b.m5072c(R.color.white);
+//                b.m5045w();
+
+
+                ImmersionBar mBarParams = ImmersionBar.with(MainActivity.this);
+                mBarParams.reset();
+                mBarParams.navigationBarDarkIcon(true, 0.8f);
+                mBarParams.navigationBarColor(R.color.white);      ////////
+                mBarParams.init();
+////////////////////////////////////////////////////////////////////////////////////
+//            ImmersionBar b2 = ImmersionBar.m5078b(MainActivity.this);
+//            b2.m5105D();
+//            b2.m5082a(true, R.color.white);
+//            b2.m5075b(true, 0.2f);
+//            b2.m5072c(R.color.white);
+//            b2.m5045w();
+
+            ImmersionBar mBarParams2 = ImmersionBar.with(MainActivity.this);
+            mBarParams2.reset();
+            mBarParams2.fitsSystemWindows(true, R.color.white);
+            mBarParams2.navigationBarDarkIcon(true, 0.2f);      ////////
+            mBarParams2.navigationBarColor(R.color.white);      ///////
+            mBarParams2.init();
+
+
+
+@Subscribe(threadMode = ThreadMode.MAIN)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

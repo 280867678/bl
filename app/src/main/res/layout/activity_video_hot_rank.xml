@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_020087">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/bg_video_hot_rank" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_44dp">
+
+            <ImageView
+                android:id="@+id/img_back"
+                android:layout_width="@dimen/dimen_44dp"
+                android:layout_height="@dimen/dimen_44dp"
+                android:background="?attr/selectableItemBackground"
+                android:padding="@dimen/dimen_14dp"
+                android:scaleType="fitCenter"
+                android:src="@mipmap/ic_back_white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/dimen_44dp"
+                android:layout_marginEnd="@dimen/dimen_44dp"
+                android:text="@string/str_video_hot_rank"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_17sp" />
+        </FrameLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/transparent"
+                android:orientation="vertical"
+                app:elevation="0dp">
+
+                <com.google.android.material.appbar.CollapsingToolbarLayout
+                    android:id="@+id/collapsing_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_scrollFlags="scroll">
+
+                    <FrameLayout
+                        android:id="@+id/layout_hot_video"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/dimen_10dp">
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:background="@mipmap/bg_video_hot_rank_head"
+                            android:scaleType="fitCenter" />
+
+                        <FrameLayout
+                            android:layout_width="@dimen/dimen_300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dimen_50dp">
+
+                            <com.makeramen.roundedimageview.RoundedImageView
+                                android:id="@+id/img_cover"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/dimen_144dp"
+                                android:background="@drawable/bg_item_video_hot_rank"
+                                android:scaleType="centerCrop"
+                                app:riv_corner_radius="@dimen/dimen_5dp" />
+
+                            <TextView
+                                android:id="@+id/tv_title"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:background="@drawable/shape_trans_top"
+                                android:ellipsize="end"
+                                android:lines="1"
+                                android:paddingStart="@dimen/dimen_8dp"
+                                android:paddingTop="@dimen/dimen_3dp"
+                                android:paddingEnd="@dimen/dimen_8dp"
+                                android:paddingBottom="@dimen/dimen_3dp"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/dimen_13sp" />
+
+                            <ViewFlipper
+                                android:id="@+id/vf_comment"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:autoStart="true"
+                                android:background="@drawable/shape_trans"
+                                android:flipInterval="4000"
+                                android:inAnimation="@anim/y_in"
+                                android:outAnimation="@anim/y_out" />
+                        </FrameLayout>
+
+                        <TextView
+                            android:id="@+id/tv_hint"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|center_horizontal"
+                            android:layout_marginBottom="@dimen/dimen_15dp"
+                            android:textColor="@color/color_80fff"
+                            android:textSize="@dimen/dimen_11sp" />
+                    </FrameLayout>
+                </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.example.boluouitest2.comod.baselib.view.magicindicator.MagicIndicator
+                        android:id="@+id/indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dimen_44dp"
+                        android:layout_gravity="start" />
+                </FrameLayout>
+            </com.google.android.material.appbar.AppBarLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_15dp"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <com.example.boluouitest2.comod.baselib.view.MyViewPager
+                    android:id="@+id/viewPager"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </LinearLayout>
+</FrameLayout>

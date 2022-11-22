@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MyViewPager">
+        <attr name="canScroll" format="boolean">
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="MultipleStatusLayout">
+        <attr name="contentView" format="reference">
+        </attr>
+        <attr name="emptyView" format="reference">
+        </attr>
+        <attr name="errorView" format="reference">
+        </attr>
+        <attr name="loadingView" format="reference">
+        </attr>
+        <attr name="noNetworkView" format="reference">
+        </attr>
+
+
+
+    </declare-styleable>
+    <declare-styleable name="AutoFlowLayout">
+        <attr name="columnNumbers" format="integer">
+        </attr>
+        <attr name="cutLine" format="boolean">
+        </attr>
+        <attr name="cutLineColor" format="color">
+        </attr>
+        <attr name="cutLineWidth" format="dimension">
+        </attr>
+        <attr name="horizontalSpace" format="dimension">
+        </attr>
+        <attr name="lineCenter" format="boolean">
+        </attr>
+        <attr name="maxLines" format="integer">
+        </attr>
+        <attr name="multiChecked" format="boolean">
+        </attr>
+        <attr name="rowNumbers" format="integer">
+        </attr>
+        <attr name="singleLine" format="boolean">
+        </attr>
+        <attr name="verticalSpace" format="dimension">
+        </attr>
+
+
+
+
+    </declare-styleable>
+    <declare-styleable name="XBanner">
+        <attr name="AutoPlayTime" format="reference|integer">
+        </attr>
+        <attr name="bannerBottomMargin" format="dimension">
+        </attr>
+        <attr name="clipChildrenLeftRightMargin" format="dimension">
+        </attr>
+        <attr name="clipChildrenTopBottomMargin" format="dimension">
+        </attr>
+        <attr name="indicatorDrawable" format="reference">
+        </attr>
+        <attr name="isAutoPlay" format="boolean">
+        </attr>
+        <attr name="isClipChildrenMode" format="boolean">
+        </attr>
+        <attr name="isClipChildrenModeLessThree" format="boolean">
+        </attr>
+        <attr name="isHandLoop" format="boolean">
+        </attr>
+        <attr name="isShowIndicatorOnlyOne" format="boolean">
+        </attr>
+        <attr name="isShowNumberIndicator" format="boolean">
+        </attr>
+        <attr name="isShowTips" format="boolean">
+        </attr>
+        <attr name="isTipsMarquee" format="boolean">
+        </attr>
+        <attr name="numberIndicatorBacgroud" format="reference">
+        </attr>
+        <attr name="pageChangeDuration" format="integer">
+        </attr>
+        <attr name="placeholderDrawable" format="reference">
+        </attr>
+        <attr name="pointContainerLeftRightPadding" format="dimension">
+        </attr>
+        <attr name="pointContainerPosition">
+            <enum name="BOTTOM" value="12" />
+            <enum name="TOP" value="10" />
+        </attr>
+        <attr name="pointLeftRightPadding" format="dimension">
+        </attr>
+        <attr name="pointNormal" format="reference">
+        </attr>
+        <attr name="pointSelect" format="reference">
+        </attr>
+        <attr name="pointTopBottomPadding" format="dimension">
+        </attr>
+        <attr name="pointsContainerBackground" format="reference|color">
+        </attr>
+        <attr name="pointsPosition">
+            <enum name="center" value="1" />
+            <enum name="left" value="0" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="pointsVisibility" format="boolean">
+        </attr>
+        <attr name="tipTextColor" format="reference|color">
+        </attr>
+        <attr name="tipTextSize" format="dimension">
+        </attr>
+        <attr name="viewpagerMargin" format="dimension">
+        </attr>
+
+
+
+    </declare-styleable>
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer">
+        </attr>
+        <attr name="tag_gravity">
+            <enum name="center" value="0" />
+            <enum name="left" value="-1" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
